@@ -1,0 +1,92 @@
+[
+    {
+        "city": "tehran",
+        "Priority": "5",
+        "lat": 35.6892523,
+        "lon": 51.3896004
+    },
+    {
+        "city": "Baghdad",
+        "Priority": "5",
+        "lat": 33.3061701,
+        "lon": 44.3872213
+    },
+    {
+        "city": "Damascus",
+        "Priority": "5",
+        "lat": 33.5130695,
+        "lon": 36.3095814
+    },
+    {
+        "city": "Kabul",
+        "Priority": "4",
+        "lat": 34.5260109,
+        "lon": 69.1776838
+    },
+    {
+        "city": "Sanaa",
+        "Priority": "4",
+        "lat": 15.3538569,
+        "lon": 44.2058841
+    },
+    {
+        "city": "Riyadh",
+        "Priority": "4",
+        "lat": 24.638916,
+        "lon": 46.7160104
+    },
+    {
+        "city": "Cairo",
+        "Priority": "3",
+        "lat": 30.0443879,
+        "lon": 31.2357257
+    },
+    {
+        "city": "Beirut",
+        "Priority": "3",
+        "lat": 33.8959203,
+        "lon": 35.47843
+    },
+    {
+        "city": "Amman",
+        "Priority": "3",
+        "lat": 31.9515694,
+        "lon": 35.9239625
+    },
+    {
+        "city": "Tripoli",
+        "Priority": "2",
+        "lat": 32.896672,
+        "lon": 13.1777923
+    },
+    {
+        "city": "Khartoum",
+        "Priority": "2",
+        "lat": 15.5635972,
+        "lon": 32.5349123
+    },
+    {
+        "city": "Mosul",
+        "Priority": "2",
+        "lat": 36.3415843,
+        "lon": 43.1291386
+    },
+    {
+        "city": "Fallujah",
+        "Priority": "1",
+        "lat": 33.3532137,
+        "lon": 43.7875674
+    },
+    {
+        "city": "Kandahar",
+        "Priority": "1",
+        "lat": 31.6205738,
+        "lon": 65.7157573
+    },
+    {
+        "city": "Marrakesh",
+        "Priority": "1",
+        "lat": 31.6258257,
+        "lon": -7.9891608
+    }
+]
