@@ -6,20 +6,21 @@ import requests
 
 from packages import modules_of_weather
 
-
+#פןנקציה שמטעינה cvs לתוך ליסט
 def load_csv(path):
     with open(path, mode='r', newline='', encoding='utf-8') as file:
         reader = csv.reader(file)
         rows = list(reader)
     return  rows
 
+#פונקציה שמטעינה את הליסט לגייסון
 def load_list_to_json(my_list, path_json):
     with open(path_json, 'w') as file:
         json.dump(my_list, file, indent=4)
 
     return
 
-
+#פונקציה שאני מביא לה גייסון והיא יודעת לפלטר לי את זה ולהחזיר לי יום מסויים
 def filter_by_datetime(data, target_datetime_str):
 
     target_datetime = datetime.strptime(target_datetime_str, '%Y-%m-%d %H:%M:%S')
@@ -39,7 +40,7 @@ def filter_by_datetime(data, target_datetime_str):
     return filtered_data
 
 
-
+#הפונקציה שמשתמשת בפונקציה מעל ושולחת לה את הדאטה הרצוי לפי מדינה מסויימת
 def load_weather(cuntry):
     url = rf"https://api.openweathermap.org/data/2.5/forecast?q={cuntry}&appid=a77e9ecbfe9c563ec12320f2d602eb7e"
     response = requests.get(url)
@@ -50,7 +51,7 @@ def load_weather(cuntry):
     return filtered_list
 
 
-
+#יצירת הגייסון של המטרות לפי כל הנתונים של כל מטרה הפונקציה נעזרת בפונקציות למעלה בשביל ליצור את הגייסון
 def create_list_of_dictionaries(rows):
     cuntry = ""
     my_list = []

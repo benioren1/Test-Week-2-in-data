@@ -1,5 +1,5 @@
 
-
+#פונקציה שממירה את מצב העננים ביעד מסויים לרמות לצורך חישובים על זה
 def weather_score(weather):
     if weather == "Clear":
         return 1.0
