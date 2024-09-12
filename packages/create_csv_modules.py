@@ -23,7 +23,7 @@ data = [["target_city", "priority", "assigned_pilot", "assigned_aircraft", "dist
 for i in range(len(data_target)):
     for j in range(len(data_pilot)):
         for k in range(len(data_aircraft)):
-            last_score = model_for_calculations.blblblblblbbllbl(
+            last_score = model_for_calculations.calculates_last_scor(
                 [data_target[i]['city'], data_target[i]['main'], data_pilot[j]['name'],
                  data_aircraft[k]['fuel_capacity']])
             data.append([data_target[i]['city'],int(data_target[i]['Priority']), data_pilot[j]['name'], data_aircraft[k]['type'],data_target[i]['distance_from_israel'],data_target[i]['main'],data_pilot[j]['skill_level'], data_aircraft[k]['speed'], data_aircraft[k]['fuel_capacity'],last_score])

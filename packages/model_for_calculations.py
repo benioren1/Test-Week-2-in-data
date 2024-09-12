@@ -29,6 +29,7 @@ def haversine_distance(lat1, lon1):
     distance = r * c
     return distance
 
+#פונקציה לפילטור מטרות לפי המרחק שלהם
 def calculate_distances_persent():
     path_targets = '../dir_of_files/targets.json'
     with open(path_targets, 'r',encoding='utf-8') as file:
@@ -46,6 +47,7 @@ def calculate_distances_persent():
 
 print(calculate_distances_persent())
 
+#פונקציה של פילטור מטוסים לפי איכות שלהם
 def calculate_aircraft_type_persent():
     path_aircraft = '../dir_of_files/aircrafts.json'
     with open(path_aircraft, 'r',encoding='utf-8') as file:
@@ -62,6 +64,7 @@ def calculate_aircraft_type_persent():
 
 print(calculate_aircraft_type_persent())
 
+#פונקציה לפילטור של טייסים לפי איכות שלהם
 def calculate_pilot_skill_persent():
     path_pilot = '../dir_of_files/pilots.json'
     with open(path_pilot, 'r',encoding='utf-8') as file:
@@ -77,6 +80,8 @@ def calculate_pilot_skill_persent():
     return list_skill
 print(calculate_pilot_skill_persent())
 
+
+#פונקציה לפילטור מזג אוויר לפי איכות
 def calculate_weather_persent():
     path_targets = '../dir_of_files/targets.json'
     with open(path_targets, 'r',encoding='utf-8') as file:
@@ -99,6 +104,7 @@ def calculate_weather_persent():
 
 print(calculate_weather_persent())
 
+#פונקציה לפילטור מטרות לפי דחיפות שלהם
 def calculate_prayority_persent():
     path_prayority = '../dir_of_files/targets.json'
     with open(path_prayority, 'r',encoding='utf-8') as file:
@@ -123,8 +129,9 @@ def calculate_prayority_persent():
 print(calculate_prayority_persent())
 
 
-
-def blblblblblbbllbl(list):
+#פונקציה לחישוב כל משימה כמה תכלס אחוזי איכות יש לה
+#
+def calculates_last_scor(list):
     list1 = calculate_distances_persent()
     l1 = 0
     for i in range(len(list1)):
