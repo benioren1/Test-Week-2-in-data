@@ -2,6 +2,7 @@ import csv
 import requests
 import json
 from packages import module_of_target
+from packages import modules_of_weather
 path_csv = 'dir_of_files/air_strike_targets.csv'
 
 rows =module_of_target.load_csv(path_csv)
@@ -10,7 +11,7 @@ my_list =module_of_target.create_list_of_dictionaries(rows)
 print(my_list)
 path_json = 'dir_of_files/targets.json'
 
-
+print(module_of_target.load_weather('tehran'))
 
 
 
