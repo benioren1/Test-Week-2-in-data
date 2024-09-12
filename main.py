@@ -3,6 +3,8 @@ import requests
 import json
 from packages import module_of_target
 from packages import modules_of_weather
+from packages.module_to_objects import convert_json_to_pilot, convert_json_to_aircraft
+
 path_csv = 'dir_of_files/air_strike_targets.csv'
 
 rows =module_of_target.load_csv(path_csv)
@@ -12,9 +14,11 @@ print(my_list)
 path_json = 'dir_of_files/targets.json'
 
 print(module_of_target.load_weather('tehran'))
+path_pilots = 'dir_of_files/pilots.json'
+path_aircraft = 'dir_of_files/aircrafts.json'
 
-
-
+print(convert_json_to_pilot(path_pilots))
+print(convert_json_to_aircraft(path_aircraft))
 
 
 

@@ -2,6 +2,7 @@ import csv
 import json
 from datetime import datetime
 from packages import modules_of_weather
+from packages import model_for_calculations
 import requests
 
 from packages import modules_of_weather
@@ -63,7 +64,8 @@ def create_list_of_dictionaries(rows):
         response = requests.get(url)
         data = response.json()
         weather_of_cuntry = load_weather( cuntry)
-        my_dict = {'city': rows[i][0], 'Priority': rows[i][1],'lat': data[0]['lat'], 'lon': data[0]['lon']}
+        distances_from_israel = model_for_calculations.haversine_distance(data[0]['lat'], data[0]['lon'])
+        my_dict = {'city': rows[i][0], 'Priority': rows[i][1],'lat': data[0]['lat'], 'lon': data[0]['lon'], 'distance_from_israel':distances_from_israel}
 
         combined_dict = {**weather_of_cuntry, **my_dict}
         my_list.append(combined_dict)

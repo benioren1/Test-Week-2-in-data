@@ -1,30 +1,33 @@
 [
     {
-        "clouds": 4,
+        "clouds": 3,
         "main": 1.0,
-        "wind": 0.73,
+        "wind": 0.68,
         "city": "tehran",
         "Priority": "5",
         "lat": 35.6892523,
-        "lon": 51.3896004
+        "lon": 51.3896004,
+        "distance_from_israel": 1512.7009755451022
     },
     {
         "clouds": 0,
         "main": 1.0,
-        "wind": 6.25,
+        "wind": 6.07,
         "city": "Baghdad",
         "Priority": "5",
         "lat": 33.3061701,
-        "lon": 44.3872213
+        "lon": 44.3872213,
+        "distance_from_israel": 846.2502128082062
     },
     {
         "clouds": 0,
         "main": 1.0,
-        "wind": 3.66,
+        "wind": 3.47,
         "city": "Damascus",
         "Priority": "5",
         "lat": 33.5130695,
-        "lon": 36.3095814
+        "lon": 36.3095814,
+        "distance_from_israel": 132.8127281602895
     },
     {
         "clouds": 0,
@@ -33,88 +36,98 @@
         "city": "Kabul",
         "Priority": "4",
         "lat": 34.5260109,
-        "lon": 69.1776838
+        "lon": 69.1776838,
+        "distance_from_israel": 3126.423772392182
     },
     {
-        "clouds": 98,
+        "clouds": 100,
         "main": 0.7,
-        "wind": 0.73,
+        "wind": 1.49,
         "city": "Sanaa",
         "Priority": "4",
         "lat": 15.3538569,
-        "lon": 44.2058841
+        "lon": 44.2058841,
+        "distance_from_israel": 2118.9885866318496
     },
     {
         "clouds": 8,
         "main": 1.0,
-        "wind": 1.04,
+        "wind": 1.68,
         "city": "Riyadh",
         "Priority": "4",
         "lat": 24.638916,
-        "lon": 46.7160104
+        "lon": 46.7160104,
+        "distance_from_israel": 1419.7512489932435
     },
     {
         "clouds": 0,
         "main": 1.0,
-        "wind": 5.11,
+        "wind": 5.24,
         "city": "Cairo",
         "Priority": "3",
         "lat": 30.0443879,
-        "lon": 31.2357257
+        "lon": 31.2357257,
+        "distance_from_israel": 485.00911326512215
     },
     {
         "clouds": 0,
         "main": 1.0,
-        "wind": 2.56,
+        "wind": 2.6,
         "city": "Beirut",
         "Priority": "3",
         "lat": 33.8959203,
-        "lon": 35.47843
+        "lon": 35.47843,
+        "distance_from_israel": 141.19785477526014
     },
     {
         "clouds": 0,
         "main": 1.0,
-        "wind": 1.63,
+        "wind": 1.7,
         "city": "Amman",
         "Priority": "3",
         "lat": 31.9515694,
-        "lon": 35.9239625
+        "lon": 35.9239625,
+        "distance_from_israel": 92.87220613061896
     },
     {
-        "clouds": 51,
+        "clouds": 43,
         "main": 0.4,
-        "wind": 6.41,
+        "wind": 6.62,
         "city": "Tripoli",
         "Priority": "2",
         "lat": 32.896672,
-        "lon": 13.1777923
+        "lon": 13.1777923,
+        "distance_from_israel": 2069.4846772475275
     },
     {
-        "clouds": 53,
+        "clouds": 21,
         "main": 0.7,
-        "wind": 3.06,
+        "wind": 3.15,
         "city": "Khartoum",
         "Priority": "2",
         "lat": 15.5635972,
-        "lon": 32.5349123
+        "lon": 32.5349123,
+        "distance_from_israel": 1918.8994192000791
     },
     {
         "clouds": 0,
         "main": 1.0,
-        "wind": 3.9,
+        "wind": 3.92,
         "city": "Mosul",
         "Priority": "2",
         "lat": 36.3415843,
-        "lon": 43.1291386
+        "lon": 43.1291386,
+        "distance_from_israel": 823.4573102041362
     },
     {
         "clouds": 0,
         "main": 1.0,
-        "wind": 5.48,
+        "wind": 5.24,
         "city": "Fallujah",
         "Priority": "1",
         "lat": 33.3532137,
-        "lon": 43.7875674
+        "lon": 43.7875674,
+        "distance_from_israel": 790.8978936995608
     },
     {
         "clouds": 0,
@@ -123,15 +136,17 @@
         "city": "Kandahar",
         "Priority": "1",
         "lat": 31.6205738,
-        "lon": 65.7157573
+        "lon": 65.7157573,
+        "distance_from_israel": 2852.107701855126
     },
     {
-        "clouds": 27,
-        "main": 0.7,
-        "wind": 1.93,
+        "clouds": 8,
+        "main": 1.0,
+        "wind": 1.97,
         "city": "Marrakesh",
         "Priority": "1",
         "lat": 31.6258257,
-        "lon": -7.9891608
+        "lon": -7.9891608,
+        "distance_from_israel": 4053.790202366661
     }
 ]
